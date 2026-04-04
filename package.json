@@ -1,0 +1,27 @@
+{
+  "name": "@aakritbhandari/branch-helper",
+  "version": "1.0.0",
+  "description": "Often after checking out of 4 5 branches we often trend to forget which branch we should have gone this will help us get the recent branches which we have used.",
+  "main": "index.js",
+  "bin": {
+    "branchhelper": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aakrit-Bhandari/BranchHelper.git"
+  },
+  "keywords": [
+    "branchhelper",
+    "branch",
+    "gitbranchhelper"
+  ],
+  "author": "Aakrit Bhandari",
+  "license": "Fair",
+  "bugs": {
+    "url": "https://github.com/Aakrit-Bhandari/BranchHelper/issues"
+  },
+  "homepage": "https://github.com/Aakrit-Bhandari/BranchHelper#readme"
+}

@@ -31,8 +31,10 @@ function isGitCommand(cmd) {
 
 function filterByPrefix(commands, prefix) {
   return commands.filter((cmd) => {
-    const afterGit = cmd.replace(/^git\s+/, '');
-    return afterGit.startsWith(prefix);
+    const afterGit = cmd.replace(/^git\s+/, "");
+    const commandSplitter = afterGit.split(" ");
+    const res = commandSplitter.filter((word) => word.startsWith(prefix));
+    return res.length > 0 ? cmd : "";
   });
 }
 

@@ -54,16 +54,6 @@ Last 3 git commands starting with "checkout":
   3. git checkout develop
 ```
 
-You can get more specific:
-
-```bash
-$ branchhelper 3 "checkout feat"
-Last 3 git commands starting with "checkout feat":
-  1. git checkout feature/auth
-  2. git checkout feature/dashboard
-  3. git checkout feat/notifications
-```
-
 Or filter by any subcommand:
 
 ```bash

@@ -1,6 +1,6 @@
 {
   "name": "@aakritbhandari/branch-helper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Often after checking out of 4 5 branches we often trend to forget which branch we should have gone this will help us get the recent branches which we have used.",
   "main": "index.js",
   "bin": {
